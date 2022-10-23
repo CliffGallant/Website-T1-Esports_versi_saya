@@ -1,9 +1,11 @@
 body {
+  padding-top: 10rem;
+  padding-bottom: 5rem;
   background-color: #25242c;
 }
 
 .jumbotron {
-  padding: 2rem 1rem;
+  padding-bottom: 5rem;
   background-color: #25242c;
 }
 
@@ -21,5 +23,9 @@ h2 {
 }
 
 .card-body {
+  background-color: #e2012d;
+}
+
+.display-4 {
   background-color: #e2012d;
 }
