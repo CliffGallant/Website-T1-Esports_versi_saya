@@ -3,16 +3,20 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Test Tutor Pak Dhika</title>
-    <style></style>
+    <title>T1 League of Legends</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+
+    <!-- File CSS-->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Akhir File CSS-->
   </head>
+
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-dark shadow">
       <div class="container mx-auto">
         <a class="navbar-brand text-light" href="https://www.youtube.com/" target="_blank">
-          <img src="T1_Logo_PrimaryRed.png" alt="Logo" width="100" height="40" class="d-inline-block align-text-top" />
+          <img src="gambar/T1_Logo_PrimaryRed.png" alt="Logo" width="100" height="40" class="d-inline-block align-text-top" />
           T1 LOL
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,19 +24,153 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
-            <a class="nav-link text-light" href="#">History</a>
-            <a class="nav-link text-light" href="#">Achievement</a>
-            <a class="nav-link text-light" href="#">The Team</a>
-            <a class="nav-link text-light" href="#">Schedule</a>
-            <a class="nav-link text-light" href="#">About Us</a>
-            <a class="nav-link text-light" href="#">Partners</a>
-            <a class="nav-link text-light" href="#">Shop</a>
+            <a class="nav-link active text-light" aria-current="page" href="#">Beranda</a>
+            <a class="nav-link text-light" href="#">Sejarah</a>
+            <a class="nav-link text-light" href="#">Pencapaian</a>
+            <a class="nav-link text-light" href="#">Tim dan Staff</a>
+            <a class="nav-link text-light" href="#">Jadwal</a>
+            <a class="nav-link text-light" href="#">Tentang Kami</a>
+            <a class="nav-link text-light" href="#">Partner</a>
           </div>
         </div>
       </div>
     </nav>
     <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <section class="jumbotron text-white text-center">
+      <img src="gambar/T1_Logo_PrimaryRed.png" alt="T1" width="300px" />
+      <h1 class="display-4">Tim Terbaik Sepanjang Masa</h1>
+      <p class="lead">3 Kali Juara Dunia, 10 Kali Juara LCK, 2 Kali Juara MSI</p>
+    </section>
+    <!-- Akhir Jumbotron -->
+
+    <!-- Carousel-->
+    <div id="carouselExampleInterval" class="carousel slide container" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="gambar/Worlds_2013_Final.jpg" class="d-block w-100" alt="Worlds 2013" />
+          <div class="carousel-caption d-none d-md-block fs-4">
+            <h5>Worlds 2013</h5>
+            <p>Impact (Top), Bengi (Jungle), Faker (Mid), Piglet (Bot), PoohManDu (Support)</p>
+            <p>kk0ma (Coach)</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="gambar/Worlds_2015_Final.jpg" class="d-block w-100" alt="Worlds 2015" />
+          <div class="carousel-caption d-none d-md-block fs-4">
+            <h5>Worlds 2015</h5>
+            <p>MaRin (Top), Bengi (Jungle), Faker (Mid), Easyhoon (Mid), Bang (Bot), Wolf (Support)</p>
+            <p>kk0ma (Coach)</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="gambar/Worlds_2016_Final.jpg" class="d-block w-100" alt="Worlds 2016" />
+          <div class="carousel-caption d-none d-md-block fs-4">
+            <h5>Worlds 2016</h5>
+            <p>Duke (Top), Bengi (Jungle), Blank (Jungle), Faker (Mid), Bang (Bot), Wolf (Support)</p>
+            <p>kk0ma (Coach)</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Akhir Carousel-->
+
+    <!-- About Us -->
+    <section id="about">
+      <div class="container bg-dark mx-auto text-light">
+        <div class="row text-center justify-content-center">
+          <div class="col">
+            <h2>Tentang Kami</h2>
+          </div>
+        </div>
+        <div class="row fs-5">
+          <div class="col-md-4 mb-3">
+            <p>
+              T1 (sebelumnya dikenal sebagai SK Telecom T1 atau SKT T1) adalah organisasi esports Korea Selatan yang dioperasikan oleh T1 Entertainment & Sports, perusahaan yang dibuat oleh SK Telecom dan Comcast Spectacor. Sebelumnya,
+              organisasi SK Telecom mensponsori 2 tim bersaudara, S dan K.
+            </p>
+          </div>
+          <div class="col-md-4 mb-3">
+            <p>
+              SK Telecom T1 adalah satu-satunya tim yang telah memenangkan Kejuaraan Dunia 3 kali dan juga satu-satunya tim yang mendapatkan sebutan tidak resmi "Triple Crown” pada Mei 2016 mereka menjadi juara bertahan IEM, Mid-Season
+              Invitational, dan Worlds meskipun gelar-gelar tersebut tidak semuanya diraih di musim yang sama, sebelum berhasil menjadi tim pertama yang mempertahankan gelar Kejuaraan Dunia mereka.
+            </p>
+          </div>
+          <div class="col-md-4 mb-3">
+            <p>
+              Pada bulan Februari 2019, organisasi SK Telecom T1 mengumumkan bahwa mereka melakukan rebranding ke T1. Namun, tim League of Legends mereka tidak dapat mengubah nama di pertengahan tahun, dan tetap disebut sebagai SKT untuk
+              sisa musim 2019. Pada bulan November, CEO Joe Marsh mulai merujuk ke tim League of Legends dengan nama T1.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir About Us -->
+
+    <!-- Tim -->
+    <section id="tim">
+      <div class="container bg-dark mx-auto text-light">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Tim Inti League of Legends</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 mb-3">
+            <div class="card bg-dark">
+              <img src="gambar/tim/T1_Zeus.png" class="card-img-top" alt="T1_Zeus" />
+              <div class="card-body">
+                <p class="card-text text-center fs-4"><b>T1 Zeus (Top)</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card bg-dark">
+              <img src="gambar/tim/T1_Oner.png" class="card-img-top" alt="T1_Oner" />
+              <div class="card-body">
+                <p class="card-text text-center fs-4"><b>T1 Oner (Jungle)</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card bg-dark">
+              <img src="gambar/tim/T1_Faker.png" class="card-img-top" alt="T1_Faker" />
+              <div class="card-body">
+                <p class="card-text text-center fs-4"><b>T1 Faker (Mid)</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-4 mb-3">
+              <div class="card bg-dark">
+                <img src="gambar/tim/T1_Gumayusi.png" class="card-img-top" alt="T1_Gumayusi" />
+                <div class="card-body">
+                  <p class="card-text text-center fs-4"><b>T1 Gumayusi (Bot)</b></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <div class="card bg-dark">
+                <img src="gambar/tim/T1_Keria.png" class="card-img-top" alt="T1_Keria" />
+                <div class="card-body">
+                  <p class="card-text text-center fs-4"><b>T1 Keria (Support)</b></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Tim -->
     <h1 class="text-center text-primary">Hello, world!</h1>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>

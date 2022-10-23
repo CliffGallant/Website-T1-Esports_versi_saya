@@ -1,0 +1,21 @@
+body {
+  background-color: #25242c;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  background-color: #25242c;
+}
+
+h2 {
+  padding: 1rem 1rem;
+  background-color: #e2012d;
+}
+
+#projects {
+  background-color: #25242c;
+}
+
+.card-body {
+  background-color: #e2012d;
+}
